@@ -126,15 +126,7 @@ The notebook reads the local [`dataset.csv`](dataset.csv), so no Kaggle account 
 
 The proposed pilot design and decision thresholds are in the [case study PDF](Facebook_vs_Google_AdWords.pdf).
 
-## Limitations
 
-- Observational data with no documented random assignment or audience split.
-- The meaning of each row and the campaign structure are not documented, and dates repeat.
-- Currency, attribution rules, audience definitions, and campaign identifiers are not documented, so comparability cannot be verified.
-- Ten Facebook records have conversions exceeding clicks; their validity cannot be established.
-- The data appears simulated (see [Dataset and data note](#dataset-and-data-note)).
-- No revenue or profit fields, so ROAS, ROI, and profitability cannot be assessed.
-- Monthly totals depend on how many records fall in each month, so monthly comparisons are most reliable as rates, not totals.
 
 ## Tech Stack
 
